@@ -29,6 +29,16 @@
     // We will use this action to move down
 }
 
+- (void) moveLeft
+{
+    // MOve to the left
+}
+
+- (void) moveRight
+{
+    // Move to the right
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
