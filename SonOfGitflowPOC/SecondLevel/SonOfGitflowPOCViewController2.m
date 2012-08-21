@@ -23,6 +23,11 @@
     return self;
 }
 
+- (void) actionForSecondController
+{
+    // Check this out
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
