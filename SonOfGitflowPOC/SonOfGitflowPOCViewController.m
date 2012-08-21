@@ -23,6 +23,11 @@
 @synthesize digit = _digit;
 @synthesize slider = _slider;
 
+- (void) sliderSlid
+{
+    //Implement the slider
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
