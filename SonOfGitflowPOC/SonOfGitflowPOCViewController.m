@@ -21,6 +21,26 @@
 @synthesize sonOfView = _sonOfView;
 @synthesize digit = _digit;
 
+- (void) moveUp
+{
+    // We will use this action to move up
+}
+
+- (void) moveDown
+{
+    // We will use this action to move down
+}
+
+- (void) moveLeft
+{
+    // MOve to the left
+}
+
+- (void) moveRight
+{
+    // Move to the right
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
