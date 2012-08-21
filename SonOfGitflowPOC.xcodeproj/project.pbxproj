@@ -21,6 +21,8 @@
 		84AA84A815E3E0ED0084D6CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AA84A615E3E0ED0084D6CE /* InfoPlist.strings */; };
 		84AA84AB15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA84AA15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m */; };
 		84AA84BE15E3E62E0084D6CE /* SonOfGitflowPOCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA84BD15E3E62E0084D6CE /* SonOfGitflowPOCView.m */; };
+		84AA84CB15E40E560084D6CE /* SonOfGitflowPOCViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA84C915E40E560084D6CE /* SonOfGitflowPOCViewController2.m */; };
+		84AA84CC15E40E560084D6CE /* SonOfGitflowPOCViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AA84CA15E40E560084D6CE /* SonOfGitflowPOCViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		84AA84AA15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonOfGitflowPOCTests.m; sourceTree = "<group>"; };
 		84AA84BC15E3E62E0084D6CE /* SonOfGitflowPOCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonOfGitflowPOCView.h; sourceTree = "<group>"; };
 		84AA84BD15E3E62E0084D6CE /* SonOfGitflowPOCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonOfGitflowPOCView.m; sourceTree = "<group>"; };
+		84AA84C815E40E560084D6CE /* SonOfGitflowPOCViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonOfGitflowPOCViewController2.h; path = SecondLevel/SonOfGitflowPOCViewController2.h; sourceTree = "<group>"; };
+		84AA84C915E40E560084D6CE /* SonOfGitflowPOCViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonOfGitflowPOCViewController2.m; path = SecondLevel/SonOfGitflowPOCViewController2.m; sourceTree = "<group>"; };
+		84AA84CA15E40E560084D6CE /* SonOfGitflowPOCViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SonOfGitflowPOCViewController2.xib; path = SecondLevel/SonOfGitflowPOCViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				84AA848E15E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.h */,
 				84AA848F15E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.m */,
 				84AA849115E3E0ED0084D6CE /* MainStoryboard.storyboard */,
+				84AA84C815E40E560084D6CE /* SonOfGitflowPOCViewController2.h */,
+				84AA84C915E40E560084D6CE /* SonOfGitflowPOCViewController2.m */,
+				84AA84CA15E40E560084D6CE /* SonOfGitflowPOCViewController2.xib */,
 				84AA84BC15E3E62E0084D6CE /* SonOfGitflowPOCView.h */,
 				84AA84BD15E3E62E0084D6CE /* SonOfGitflowPOCView.m */,
 				84AA849415E3E0ED0084D6CE /* SonOfGitflowPOCViewController.h */,
@@ -230,6 +238,7 @@
 			files = (
 				84AA848A15E3E0ED0084D6CE /* InfoPlist.strings in Resources */,
 				84AA849315E3E0ED0084D6CE /* MainStoryboard.storyboard in Resources */,
+				84AA84CC15E40E560084D6CE /* SonOfGitflowPOCViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 				84AA849015E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.m in Sources */,
 				84AA849615E3E0ED0084D6CE /* SonOfGitflowPOCViewController.m in Sources */,
 				84AA84BE15E3E62E0084D6CE /* SonOfGitflowPOCView.m in Sources */,
+				84AA84CB15E40E560084D6CE /* SonOfGitflowPOCViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
