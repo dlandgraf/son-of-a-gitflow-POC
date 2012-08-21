@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet SonOfGitflowPOCView *sonOfView;
 @property (weak, nonatomic) IBOutlet UIButton *digit;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
 
 @end
 
@@ -20,6 +21,12 @@
 
 @synthesize sonOfView = _sonOfView;
 @synthesize digit = _digit;
+@synthesize slider = _slider;
+
+- (void) sliderSlid
+{
+    //Implement the slider
+}
 
 - (void) moveUp
 {
@@ -51,6 +58,7 @@
 {
     [self setSonOfView:nil];
     [self setDigit:nil];
+    [self setSlider:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
