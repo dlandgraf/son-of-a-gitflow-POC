@@ -47,4 +47,14 @@
     
 }
 
+- (void) testInit
+{
+    // add test case for init
+    NSDictionary *testDictionary;
+    STAssertNil(testDictionary, @"This test dictionary has not been used and therefore should be nil.");
+    
+}
+
+
+
 @end
