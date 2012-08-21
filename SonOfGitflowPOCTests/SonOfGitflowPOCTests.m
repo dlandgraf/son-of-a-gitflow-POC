@@ -27,9 +27,17 @@
 - (void)testExample
 {
     //Add test unit test case for POC
-    NSArray* testArray;
+    NSArray *testArray;
     STAssertNil(testArray, @"This test array has not been used and therefore should be nil.");
         
+}
+
+- (void) testButtons
+{
+        //Add test unit test case for POC
+    NSDictionary *testDictionary;
+    STAssertNil(testDictionary, @"This test array has not been used and therefore should be nil.");
+    
 }
 
 @end
