@@ -7,12 +7,17 @@
 //
 
 #import "SonOfGitflowPOCViewController.h"
+#import "SonOfGitflowPOCView.h"
 
 @interface SonOfGitflowPOCViewController ()
+
+@property (weak, nonatomic) IBOutlet SonOfGitflowPOCView *sonOfView;
 
 @end
 
 @implementation SonOfGitflowPOCViewController
+
+@synthesize sonOfView = _sonOfView;
 
 - (void)viewDidLoad
 {
@@ -22,6 +27,7 @@
 
 - (void)viewDidUnload
 {
+    [self setSonOfView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
