@@ -12,12 +12,14 @@
 @interface SonOfGitflowPOCViewController ()
 
 @property (weak, nonatomic) IBOutlet SonOfGitflowPOCView *sonOfView;
+@property (weak, nonatomic) IBOutlet UIButton *digit;
 
 @end
 
 @implementation SonOfGitflowPOCViewController
 
 @synthesize sonOfView = _sonOfView;
+@synthesize digit = _digit;
 
 - (void)viewDidLoad
 {
@@ -28,6 +30,7 @@
 - (void)viewDidUnload
 {
     [self setSonOfView:nil];
+    [self setDigit:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
