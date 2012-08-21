@@ -14,9 +14,14 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        [self setDown];
     }
     return self;
+}
+
+- (void) setDown
+{
+    // INit method
 }
 
 /*
