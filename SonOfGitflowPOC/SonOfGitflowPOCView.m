@@ -10,11 +10,21 @@
 
 @implementation SonOfGitflowPOCView
 
+- (void)setUp
+{
+    // running set up
+}
+
+- (void) awakeFromNib
+{
+    [self setUp];
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        [self setUp];
     }
     return self;
 }
