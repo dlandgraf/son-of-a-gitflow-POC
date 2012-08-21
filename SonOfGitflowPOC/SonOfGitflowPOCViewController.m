@@ -19,6 +19,16 @@
 
 @synthesize sonOfView = _sonOfView;
 
+- (void) moveUp
+{
+    // We will use this action to move up
+}
+
+- (void) moveDown
+{
+    // We will use this action to move down
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
