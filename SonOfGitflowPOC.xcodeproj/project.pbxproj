@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AA848015E3E0ED0084D6CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA847F15E3E0ED0084D6CE /* UIKit.framework */; };
+		84AA848215E3E0ED0084D6CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA848115E3E0ED0084D6CE /* Foundation.framework */; };
+		84AA848415E3E0ED0084D6CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA848315E3E0ED0084D6CE /* CoreGraphics.framework */; };
+		84AA848A15E3E0ED0084D6CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AA848815E3E0ED0084D6CE /* InfoPlist.strings */; };
+		84AA848C15E3E0ED0084D6CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA848B15E3E0ED0084D6CE /* main.m */; };
+		84AA849015E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA848F15E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.m */; };
+		84AA849315E3E0ED0084D6CE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AA849115E3E0ED0084D6CE /* MainStoryboard.storyboard */; };
+		84AA849615E3E0ED0084D6CE /* SonOfGitflowPOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA849515E3E0ED0084D6CE /* SonOfGitflowPOCViewController.m */; };
+		84AA849E15E3E0ED0084D6CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA849D15E3E0ED0084D6CE /* SenTestingKit.framework */; };
+		84AA849F15E3E0ED0084D6CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA847F15E3E0ED0084D6CE /* UIKit.framework */; };
+		84AA84A015E3E0ED0084D6CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA848115E3E0ED0084D6CE /* Foundation.framework */; };
+		84AA84A815E3E0ED0084D6CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AA84A615E3E0ED0084D6CE /* InfoPlist.strings */; };
+		84AA84AB15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA84AA15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AA84A115E3E0ED0084D6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AA847215E3E0ED0084D6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AA847A15E3E0ED0084D6CE;
+			remoteInfo = SonOfGitflowPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84AA847B15E3E0ED0084D6CE /* SonOfGitflowPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonOfGitflowPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AA847F15E3E0ED0084D6CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84AA848115E3E0ED0084D6CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84AA848315E3E0ED0084D6CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84AA848715E3E0ED0084D6CE /* SonOfGitflowPOC-Info.plist */ = {isa = PBXFileReference; path = "SonOfGitflowPOC-Info.plist"; sourceTree = "<group>"; };
+		84AA848915E3E0ED0084D6CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84AA848B15E3E0ED0084D6CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AA848D15E3E0ED0084D6CE /* SonOfGitflowPOC-Prefix.pch */ = {isa = PBXFileReference; path = "SonOfGitflowPOC-Prefix.pch"; sourceTree = "<group>"; };
+		84AA848E15E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.h */ = {isa = PBXFileReference; path = SonOfGitflowPOCAppDelegate.h; sourceTree = "<group>"; };
+		84AA848F15E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonOfGitflowPOCAppDelegate.m; sourceTree = "<group>"; };
+		84AA849215E3E0ED0084D6CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84AA849415E3E0ED0084D6CE /* SonOfGitflowPOCViewController.h */ = {isa = PBXFileReference; path = SonOfGitflowPOCViewController.h; sourceTree = "<group>"; };
+		84AA849515E3E0ED0084D6CE /* SonOfGitflowPOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonOfGitflowPOCViewController.m; sourceTree = "<group>"; };
+		84AA849C15E3E0ED0084D6CE /* SonOfGitflowPOCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonOfGitflowPOCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AA849D15E3E0ED0084D6CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84AA84A515E3E0ED0084D6CE /* SonOfGitflowPOCTests-Info.plist */ = {isa = PBXFileReference; path = "SonOfGitflowPOCTests-Info.plist"; sourceTree = "<group>"; };
+		84AA84A715E3E0ED0084D6CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84AA84A915E3E0ED0084D6CE /* SonOfGitflowPOCTests.h */ = {isa = PBXFileReference; path = SonOfGitflowPOCTests.h; sourceTree = "<group>"; };
+		84AA84AA15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonOfGitflowPOCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AA847815E3E0ED0084D6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA848015E3E0ED0084D6CE /* UIKit.framework in Frameworks */,
+				84AA848215E3E0ED0084D6CE /* Foundation.framework in Frameworks */,
+				84AA848415E3E0ED0084D6CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA849815E3E0ED0084D6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA849E15E3E0ED0084D6CE /* SenTestingKit.framework in Frameworks */,
+				84AA849F15E3E0ED0084D6CE /* UIKit.framework in Frameworks */,
+				84AA84A015E3E0ED0084D6CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AA847015E3E0ED0084D6CE = {
+			isa = PBXGroup;
+			children = (
+				84AA848515E3E0ED0084D6CE /* SonOfGitflowPOC */,
+				84AA84A315E3E0ED0084D6CE /* SonOfGitflowPOCTests */,
+				84AA847E15E3E0ED0084D6CE /* Frameworks */,
+				84AA847C15E3E0ED0084D6CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AA847C15E3E0ED0084D6CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AA847B15E3E0ED0084D6CE /* SonOfGitflowPOC.app */,
+				84AA849C15E3E0ED0084D6CE /* SonOfGitflowPOCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AA847E15E3E0ED0084D6CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AA847F15E3E0ED0084D6CE /* UIKit.framework */,
+				84AA848115E3E0ED0084D6CE /* Foundation.framework */,
+				84AA848315E3E0ED0084D6CE /* CoreGraphics.framework */,
+				84AA849D15E3E0ED0084D6CE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AA848515E3E0ED0084D6CE /* SonOfGitflowPOC */ = {
+			isa = PBXGroup;
+			children = (
+				84AA848E15E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.h */,
+				84AA848F15E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.m */,
+				84AA849115E3E0ED0084D6CE /* MainStoryboard.storyboard */,
+				84AA849415E3E0ED0084D6CE /* SonOfGitflowPOCViewController.h */,
+				84AA849515E3E0ED0084D6CE /* SonOfGitflowPOCViewController.m */,
+				84AA848615E3E0ED0084D6CE /* Supporting Files */,
+			);
+			path = SonOfGitflowPOC;
+			sourceTree = "<group>";
+		};
+		84AA848615E3E0ED0084D6CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AA848715E3E0ED0084D6CE /* SonOfGitflowPOC-Info.plist */,
+				84AA848815E3E0ED0084D6CE /* InfoPlist.strings */,
+				84AA848B15E3E0ED0084D6CE /* main.m */,
+				84AA848D15E3E0ED0084D6CE /* SonOfGitflowPOC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AA84A315E3E0ED0084D6CE /* SonOfGitflowPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AA84A915E3E0ED0084D6CE /* SonOfGitflowPOCTests.h */,
+				84AA84AA15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m */,
+				84AA84A415E3E0ED0084D6CE /* Supporting Files */,
+			);
+			path = SonOfGitflowPOCTests;
+			sourceTree = "<group>";
+		};
+		84AA84A415E3E0ED0084D6CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AA84A515E3E0ED0084D6CE /* SonOfGitflowPOCTests-Info.plist */,
+				84AA84A615E3E0ED0084D6CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AA847A15E3E0ED0084D6CE /* SonOfGitflowPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AA84AE15E3E0ED0084D6CE /* Build configuration list for PBXNativeTarget "SonOfGitflowPOC" */;
+			buildPhases = (
+				84AA847715E3E0ED0084D6CE /* Sources */,
+				84AA847815E3E0ED0084D6CE /* Frameworks */,
+				84AA847915E3E0ED0084D6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonOfGitflowPOC;
+			productName = SonOfGitflowPOC;
+			productReference = 84AA847B15E3E0ED0084D6CE /* SonOfGitflowPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AA849B15E3E0ED0084D6CE /* SonOfGitflowPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AA84B115E3E0ED0084D6CE /* Build configuration list for PBXNativeTarget "SonOfGitflowPOCTests" */;
+			buildPhases = (
+				84AA849715E3E0ED0084D6CE /* Sources */,
+				84AA849815E3E0ED0084D6CE /* Frameworks */,
+				84AA849915E3E0ED0084D6CE /* Resources */,
+				84AA849A15E3E0ED0084D6CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AA84A215E3E0ED0084D6CE /* PBXTargetDependency */,
+			);
+			name = SonOfGitflowPOCTests;
+			productName = SonOfGitflowPOCTests;
+			productReference = 84AA849C15E3E0ED0084D6CE /* SonOfGitflowPOCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AA847215E3E0ED0084D6CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SonOfGitflowPOC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "SNL Financial";
+			};
+			buildConfigurationList = 84AA847515E3E0ED0084D6CE /* Build configuration list for PBXProject "SonOfGitflowPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84AA847015E3E0ED0084D6CE;
+			productRefGroup = 84AA847C15E3E0ED0084D6CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AA847A15E3E0ED0084D6CE /* SonOfGitflowPOC */,
+				84AA849B15E3E0ED0084D6CE /* SonOfGitflowPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AA847915E3E0ED0084D6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA848A15E3E0ED0084D6CE /* InfoPlist.strings in Resources */,
+				84AA849315E3E0ED0084D6CE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA849915E3E0ED0084D6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA84A815E3E0ED0084D6CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84AA849A15E3E0ED0084D6CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AA847715E3E0ED0084D6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA848C15E3E0ED0084D6CE /* main.m in Sources */,
+				84AA849015E3E0ED0084D6CE /* SonOfGitflowPOCAppDelegate.m in Sources */,
+				84AA849615E3E0ED0084D6CE /* SonOfGitflowPOCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA849715E3E0ED0084D6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA84AB15E3E0ED0084D6CE /* SonOfGitflowPOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AA84A215E3E0ED0084D6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AA847A15E3E0ED0084D6CE /* SonOfGitflowPOC */;
+			targetProxy = 84AA84A115E3E0ED0084D6CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AA848815E3E0ED0084D6CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA848915E3E0ED0084D6CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84AA849115E3E0ED0084D6CE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA849215E3E0ED0084D6CE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		84AA84A615E3E0ED0084D6CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA84A715E3E0ED0084D6CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AA84AC15E3E0ED0084D6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84AA84AD15E3E0ED0084D6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AA84AF15E3E0ED0084D6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonOfGitflowPOC/SonOfGitflowPOC-Prefix.pch";
+				INFOPLIST_FILE = "SonOfGitflowPOC/SonOfGitflowPOC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84AA84B015E3E0ED0084D6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonOfGitflowPOC/SonOfGitflowPOC-Prefix.pch";
+				INFOPLIST_FILE = "SonOfGitflowPOC/SonOfGitflowPOC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84AA84B215E3E0ED0084D6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SonOfGitflowPOC.app/SonOfGitflowPOC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonOfGitflowPOC/SonOfGitflowPOC-Prefix.pch";
+				INFOPLIST_FILE = "SonOfGitflowPOCTests/SonOfGitflowPOCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84AA84B315E3E0ED0084D6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SonOfGitflowPOC.app/SonOfGitflowPOC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SonOfGitflowPOC/SonOfGitflowPOC-Prefix.pch";
+				INFOPLIST_FILE = "SonOfGitflowPOCTests/SonOfGitflowPOCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AA847515E3E0ED0084D6CE /* Build configuration list for PBXProject "SonOfGitflowPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA84AC15E3E0ED0084D6CE /* Debug */,
+				84AA84AD15E3E0ED0084D6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AA84AE15E3E0ED0084D6CE /* Build configuration list for PBXNativeTarget "SonOfGitflowPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA84AF15E3E0ED0084D6CE /* Debug */,
+				84AA84B015E3E0ED0084D6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84AA84B115E3E0ED0084D6CE /* Build configuration list for PBXNativeTarget "SonOfGitflowPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA84B215E3E0ED0084D6CE /* Debug */,
+				84AA84B315E3E0ED0084D6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AA847215E3E0ED0084D6CE /* Project object */;
+}
