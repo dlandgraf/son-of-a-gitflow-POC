@@ -18,9 +18,14 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        [self setUp];
     }
     return self;
+}
+
+- (void)setUp
+{
+    // Dummy method
 }
 
 - (void) actionForSecondController
