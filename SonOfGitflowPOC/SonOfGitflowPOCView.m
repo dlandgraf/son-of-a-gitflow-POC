@@ -26,6 +26,7 @@
     if (self) {
         [self setUp];
         [self setDown];
+        [self setSide];
     }
     return self;
 }
@@ -33,6 +34,11 @@
 - (void) setDown
 {
     // INit method
+}
+
+- (void) setSide
+{
+    // Init method
 }
 
 /*
