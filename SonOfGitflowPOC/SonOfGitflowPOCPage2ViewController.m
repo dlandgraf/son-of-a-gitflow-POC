@@ -14,14 +14,22 @@
 
 @implementation SonOfGitflowPOCPage2ViewController
 
+- (void)initStuff
+{
+    // Check out this init stuff
+}
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        // Added own inits here
+        [self initStuff];
     }
     return self;
 }
+
 
 - (void)viewDidLoad
 {
