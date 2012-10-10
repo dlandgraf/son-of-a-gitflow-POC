@@ -26,10 +26,15 @@
     if (self) {
         // Added own inits here
         [self initStuff];
+        [self moreInitStuff];
     }
     return self;
 }
 
+- (void)moreInitStuff
+{
+    // Do more initialization here
+}
 
 - (void)viewDidLoad
 {
