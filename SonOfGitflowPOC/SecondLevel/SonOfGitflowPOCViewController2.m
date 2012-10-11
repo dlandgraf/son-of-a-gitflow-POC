@@ -19,11 +19,17 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         [self setUp];
+        [self moreDummyMethods];
     }
     return self;
 }
 
 - (void)setUp
+{
+    // Dummy method
+}
+
+- (void)moreDummyMethods
 {
     // Dummy method
 }
