@@ -29,6 +29,8 @@
         [self setSide];
         [self jump];
         [self jumpSide];
+        [self setMiddle];
+
     }
     return self;
 }
@@ -37,6 +39,12 @@
 {
     // INit method
 }
+
+- (void) setMiddle
+{
+    // Init method
+}
+
 
 - (void) setSide
 {
