@@ -111,4 +111,12 @@
 
 }
 
+- (void) testComponentMethod
+{
+    // Blah, blah....
+    NSDictionary *testDictionary;
+    STAssertNil(testDictionary, @"This test dictionary has not been used and therefore should be nil.");
+
+}
+
 @end
