@@ -41,9 +41,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self checkLoad];
+    [self checkMoreLoad];
 }
 
 - (void) checkLoad
+{
+    // Do some checking when we are loading some
+
+}
+
+- (void) checkMoreLoad
 {
     // Do some checking when we are loading some
 
