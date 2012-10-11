@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UISearchBar *searchBar;
+@property (strong, nonatomic) UIAccelerometer *balancer;
 
 @end

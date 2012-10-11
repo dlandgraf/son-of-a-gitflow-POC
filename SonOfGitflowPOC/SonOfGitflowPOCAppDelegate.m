@@ -12,6 +12,7 @@
 
 @synthesize window = _window;
 @synthesize searchBar = _searchBar;
+@synthesize balancer = _balancer;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
