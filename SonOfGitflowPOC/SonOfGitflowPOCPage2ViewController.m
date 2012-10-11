@@ -40,6 +40,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self checkLoad];
+}
+
+- (void) checkLoad
+{
+    // Do some checking when we are loading some
+
 }
 
 - (void)didReceiveMemoryWarning
