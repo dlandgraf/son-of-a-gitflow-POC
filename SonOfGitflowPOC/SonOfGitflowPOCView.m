@@ -28,6 +28,7 @@
         [self setDown];
         [self setSide];
         [self jump];
+        [self jumpSide];
     }
     return self;
 }
@@ -43,6 +44,11 @@
 }
 
 - (void)jump
+{
+    // one more method
+}
+
+- (void)jumpSide
 {
     // one more method
 }
