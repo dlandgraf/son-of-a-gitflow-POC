@@ -131,6 +131,13 @@
                                         <rect key="frame" x="53" y="720" width="409" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </slider>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Current Position" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Nl4-cB-tIa">
+                                        <rect key="frame" x="55" y="20" width="405" height="121"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -139,6 +146,7 @@
                     </view>
                     <connections>
                         <outlet property="digit" destination="lvp-XU-cMs" id="4vr-XL-z2I"/>
+                        <outlet property="label" destination="Nl4-cB-tIa" id="j2f-Kq-OpT"/>
                         <outlet property="slider" destination="p7s-4k-rjI" id="k4H-7v-O0O"/>
                         <outlet property="sonOfView" destination="5TL-0e-Lfw" id="gqc-fo-IdV"/>
                     </connections>
@@ -154,6 +162,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SonOfGitflowPOCViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="digit" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="slider" candidateClass="UISlider"/>
                 <relationship kind="outlet" name="sonOfView" candidateClass="SonOfGitflowPOCView"/>
             </relationships>
