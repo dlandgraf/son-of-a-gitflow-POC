@@ -11,6 +11,8 @@
 @implementation SonOfGitflowPOCAppDelegate
 
 @synthesize window = _window;
+@synthesize searchBar = _searchBar;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
