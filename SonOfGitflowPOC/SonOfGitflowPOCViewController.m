@@ -64,11 +64,17 @@
     [self setLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    [self checkPostUnload];
+}
+
+- (void)checkPostUnload
+{
+    // Verify once the unload is complete, that we can move on with our life.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return YES;
+    return NO;
 }
 
 @end
