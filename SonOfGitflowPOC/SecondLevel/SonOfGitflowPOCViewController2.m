@@ -43,6 +43,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self watchOut];
+}
+
+- (void)watchOut
+{
+     // Watch out for more on load
 }
 
 - (void)viewDidUnload
