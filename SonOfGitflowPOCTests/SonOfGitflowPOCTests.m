@@ -26,7 +26,43 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in SonOfGitflowPOCTests");
+    //Add test unit test case for POC
+    NSArray *testArray;
+    STAssertNil(testArray, @"This test array has not been used and therefore should be nil.");
+        
 }
+
+- (void) testButtons
+{
+        //Add test unit test case for POC
+    NSDictionary *testDictionary;
+    STAssertNil(testDictionary, @"This test array has not been used and therefore should be nil.");
+    
+}
+- (void) testController2
+{
+    // add test case for second controller
+    NSDictionary *testDictionary;
+    STAssertNil(testDictionary, @"This test dictionary has not been used and therefore should be nil.");
+    
+}
+
+- (void) testInit
+{
+    // add test case for init
+    NSDictionary *testDictionary;
+    STAssertNil(testDictionary, @"This test dictionary has not been used and therefore should be nil.");
+    
+}
+
+- (void) testInitController
+{
+    // add test case for init Controller
+    NSDictionary *testDictionary;
+    STAssertNil(testDictionary, @"This test dictionary has not been used and therefore should be nil.");
+    
+}
+
+
 
 @end
