@@ -24,6 +24,15 @@
     [super tearDown];
 }
 
+- (void)testLoadAndUnload
+{
+    //Add test unit test case for POC
+    NSArray *testArray;
+    STAssertNil(testArray, @"This test array has not been used and therefore should be nil.");
+
+}
+
+
 - (void)testExample
 {
     //Add test unit test case for POC
