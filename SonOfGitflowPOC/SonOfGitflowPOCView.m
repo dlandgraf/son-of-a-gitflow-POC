@@ -30,9 +30,14 @@
         [self jump];
         [self jumpSide];
         [self setMiddle];
+        [self anotherMethod];
 
     }
     return self;
+}
+- (void) anotherMethod
+{
+
 }
 
 - (void) setDown

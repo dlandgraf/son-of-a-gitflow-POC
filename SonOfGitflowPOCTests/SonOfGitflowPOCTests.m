@@ -32,6 +32,14 @@
 
 }
 
+- (void)testAnotherLoad
+{
+    //Add test unit test case for POC
+    NSArray *testArray;
+    STAssertNil(testArray, @"This test array has not been used and therefore should be nil.");
+
+}
+
 
 - (void)testExample
 {
