@@ -42,6 +42,12 @@
     // Do any additional setup after loading the view from its nib.
     [self checkLoad];
     [self checkMoreLoad];
+    [self verifyDidLoad];
+}
+
+- (void) verifyDidLoad
+{
+    // verify again that the component did load
 }
 
 - (void) checkLoad
